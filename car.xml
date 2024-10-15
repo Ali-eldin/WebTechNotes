@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="car.css" type="text/css"?>
+<!DOCTYPE main SYSTEM "car.dtd">
+
+
+<main>
+    <title>My friends cars</title>
+    <cars>
+        <heading>
+            <make>Brand</make>
+            <model>Model</model>
+            <year>Year of production</year>
+            <top_speed>Top speed</top_speed>
+            <description>Description</description>
+        </heading>
+        <car owner="Ali" phone_number="2133123">
+            <make>Toyota</make>
+            <model>corolla</model>
+            <year>2018</year>
+            <top_speed>117</top_speed>
+            <description>Very good</description>
+        </car>
+
+        <car owner="Joe" phone_number="52352423">
+            <make>Toyota</make>
+            <model>corolla</model>
+            <year>2019</year>
+            <top_speed>130</top_speed>
+            <description>Very good but more expensive!</description>
+        </car>
+
+        <car owner="Mike" phone_number="6885474">
+            <make>bmw</make>
+            <model>i8</model>
+            <year>2020</year>
+            <top_speed>320</top_speed>
+            <description>Very fast car</description>
+        </car>
+    </cars>
+</main>
