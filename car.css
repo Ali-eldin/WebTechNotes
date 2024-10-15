@@ -59,3 +59,7 @@ car > make::before{
     content:  counter(AliCount) ". ";
     counter-increment: AliCount;
 }
+
+top_speed::after{
+    content:" (km/h)";
+}
