@@ -50,3 +50,12 @@ car:hover{
     color: white;
     font-weight: bold;
 }
+
+cars{
+    counter-reset:AliCount;
+}
+
+car > make::before{
+    content:  counter(AliCount) ". ";
+    counter-increment: AliCount;
+}
