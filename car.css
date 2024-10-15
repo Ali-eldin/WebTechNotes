@@ -1,0 +1,45 @@
+/* *{
+    display: block;
+    border:thin solid red;
+} */
+
+title{ 
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+     
+cars{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: thin solid black;  
+}
+
+
+car, heading{
+    display: table-row;
+}
+
+make, model, year, top_speed, description{
+    display: table-cell;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.50em;
+    border: thin solid black;    
+}
+
+heading{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    background-color: aquamarine;
+}
+
+car:nth-child(odd){
+    background-color: bisque;
+}
