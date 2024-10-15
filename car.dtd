@@ -1,0 +1,12 @@
+<!ELEMENT main (title, cars)>
+<!ELEMENT cars (heading, car*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT heading (make, model,year,top_speed, description)>
+<!ELEMENT car (make, model,year,top_speed, description)>
+<!ATTLIST car owner CDATA #REQUIRED>
+<!ATTLIST car phone_number CDATA #REQUIRED>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT top_speed (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
